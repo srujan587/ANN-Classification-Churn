@@ -21,7 +21,7 @@ with open('scaler.pkl','rb') as file:
 
 ##Streamlit App
 
-st.write('Customer Churn Prediction')
+st.title('Customer Churn Prediction')
 
 georaphy=st.selectbox('Geography',one_hot_encoder_geography.categories_[0])
 gender=st.selectbox('Gender',label_encoder_gender.classes_)
